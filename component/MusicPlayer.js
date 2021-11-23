@@ -147,11 +147,13 @@ export default MusicPlayer;
 const styles = StyleSheet.create ({
     container: {
         flex: 0,
+        padding: '30%',
         backgroundColor: '#222831',
         alignItems: 'center',
     },
     mainContainer: {
         flex: 0,
+        padding: '10%',
         alignItems: 'center',
         justifyContent: 'center',
     },
