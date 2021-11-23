@@ -7,7 +7,8 @@ import {
     Dimensions, 
     TouchableOpacity, 
     Image,
-    Animated
+    Animated,
+    DatePickerAndroid
 } from 'react-native';
 
 import Slider from '@react-native-community/slider'
@@ -178,7 +179,7 @@ const styles = StyleSheet.create ({
         borderRadius: 15,
     },
     title: {
-        fontSize: 15,
+        fontSize: 14,
         fontWeight: '600',
         textAlign: 'center',
         color: '#EEEEEE',
@@ -216,8 +217,10 @@ const styles = StyleSheet.create ({
         alignItems: 'center',
     },
     bottomControls: {
+        borderTopColor:'#222831',
+        borderTopWidth: 7,
         flexDirection: 'row', 
-        justifyContent:'space-between', 
+        justifyContent: 'space-between', 
         width:'80%',
     }
 });
