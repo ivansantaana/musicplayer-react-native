@@ -106,7 +106,7 @@ const MusicPlayer = () => {
                 />
                 <View style={styles.progressLabelContainer}>
                     <Text style={styles.progressLabelTxt}>0:00</Text>
-                    <Text style={styles.progressLabelTxt}>3.55</Text>
+                    <Text style={styles.progressLabelTxt}>{songs[songIndex].duration}</Text>
                 </View>
             </View>
 
